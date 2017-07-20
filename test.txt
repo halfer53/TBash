@@ -1,0 +1,20 @@
+#hello world
+ls
+ls -l
+echo 4 > foo
+echo 2 >> foo
+echo 8 >> foo
+echo 5 >> foo
+sort < foo
+abc
+mkdir ass6
+cd ass6
+echo 'hello world' > bar
+cd ..
+cat ass6/bar
+foo='main()'
+echo " $foo is the main entry"
+echo "int $foo {while(1);}" > bomb.c
+ls -l | tail -n 10 | tail -n 5 | grep nsh
+echo `ls -l`
+
