@@ -62,8 +62,8 @@ int exec_cmd(char *line, int tpipe[2]){
     char **tmp_args;
     int saved_stdin, saved_stdout;
 
-    if(strcmp("exit", line) == 0)
-        exit(0);
+    if(strcmp("exit\n", line) == 0)
+	exit(0);
 
     if(*line == '#') //if this is a comment
         return 0;
